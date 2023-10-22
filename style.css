@@ -1,0 +1,306 @@
+body{
+    margin: auto;
+    display: grid;
+}
+.head{
+    background-color: rgb(32,33,37);
+    border: none;
+    width: 100%;
+    margin:-122;
+    display: flex;
+    flex-direction: row;
+    height:100px;
+    vertical-align: baseline;
+    align-items: center;
+    
+}
+.butt{
+    padding-left: 6%;
+    padding-bottom: 5px;
+}
+.hbutt{
+    background-color:rgb(32,33,37);
+    border: none;
+    margin-left: 6%;
+    margin-left:  20px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 300;
+    transition: 0.5;
+}
+.hbutt:hover{
+    color: #CAE962;
+    cursor: pointer;
+}
+.main{
+    position: relative; 
+    display: flex;
+    height:480px;
+}
+.images{
+  position: absolute;
+    background-size: cover;
+    display: flex;
+    width: 1349px;
+    height: 485px;
+    
+    background-repeat: no-repeat;
+
+}
+
+.logos{
+    position: absolute;
+    display: grid;
+    top: 14%;
+    
+    width: 750px;
+}
+.log{
+    height: 20px;
+    padding: 0%;
+    margin: 0px;
+}
+.logo{
+    height: 60px;
+    width: auto;
+    margin-top: 30px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.detials{
+    display: grid;
+    margin-left: 100px;
+}
+.find{
+    display: flex;
+    
+   
+    margin-top: 100px;
+}
+.search{
+    height: 50px;
+    width: 515px; 
+    margin-top: 0px;
+    font-weight: 400;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    border: none!important;
+}
+
+.sbut{
+    position: absolute;
+    height: 60px;
+  
+    margin-left: 10px;
+}
+.sbut:hover{
+    cursor: pointer;
+}
+.zoro{
+    width:550px;
+  margin-top: 46px;
+   
+    
+}
+.zoros{
+position: absolute;
+
+right: 6%;
+top: 1%;
+    
+}
+.animes{
+    color: white;
+    font-weight: 10;
+    font-size: small;
+    letter-spacing: 1px;
+    margin-top: 22px;
+}
+#top{
+    color: white;
+    font-size: medium;
+    letter-spacing: 1px;
+}
+.animes:hover{
+    
+    color: #CAE962;
+
+}
+.black{
+    display: block;
+
+    background-color: rgb(32,33,37);
+    bottom: -173px;
+    height: 610px;
+    width:100%;
+   
+    justify-content: center;
+    
+}
+.items{
+display: grid;
+justify-content: center;
+}
+.head2{
+    margin: 0;
+    background-color: #CAE962;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color:rgb(32,33,37) ;
+    width: 1160px;
+    height: 65px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: large;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.head2:hover{
+    cursor: pointer;
+}
+.share{
+   position: initial;
+  display: flex;
+    margin-top: 20PX;
+   justify-content: center;
+   align-items: center;
+    background-color:rgb(19, 21, 30) ;
+    border-radius: 10PX;
+    width: 100%;
+    height: 75px;    
+    display: block;  
+    border-color: #CAE962;
+}
+.friend{ 
+    border-left: 29px;
+    border-color: #CAE962;
+    background-color: initial;
+    border: 2px;
+    width: 980px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.friends{
+    margin: 0px;
+    color:white;
+    font-size: small;
+   
+}
+.sharezoro{
+    color: #CAE962;
+    font-size: medium;
+    margin-top: 10px;
+    
+}
+.nshare{
+    position: absolute;
+    top: 685px;
+    left: 230px;
+  display: block;
+    color: rgb(170, 186, 186);
+    display: flex;
+}
+#facebook{
+   position: absolute;
+   top: 680px;
+   left: 280px;
+   width: 125px;
+   transition: 0.5s;
+    
+}
+#facebook:hover{
+    top: 675px;
+    cursor: pointer;
+}
+#x{
+    position: absolute;
+    top: 680px;
+    left: 412px;
+    width: 125px;
+    transition: 0.5s;
+
+}
+#x:hover{
+    top: 675px;
+    cursor: pointer;
+}
+#messenger{
+    position: absolute;
+    top: 682px;
+    left: 544px;
+    width: 120px;
+    transition: 0.5s;
+}
+#messenger:hover{
+    top: 675px;
+    cursor: pointer;
+}
+#reddit{
+    position: absolute;
+    top: 682px;
+    left: 672px;
+    width: 120px;
+    transition: 0.5s;
+}
+#reddit:hover{
+    top: 675px; 
+    cursor: pointer;
+}
+#whatsapp{
+    position: absolute;
+    top: 681px;
+    left: 799px;
+    width: 50px;
+    height: 34px;
+    transition: 0.5s;
+}
+#whatsapp:hover{
+    top: 675px;
+    cursor: pointer;
+}
+#telegram{
+    position: absolute;
+    top: 680px;
+    left: 856px;
+    width: 50px;
+    height: 35px;
+    transition: 0.5s;
+}
+#telegram:hover{
+    top: 675px;
+    cursor: pointer;
+}
+.texts{
+    line-height: 20px;
+    color: white;
+    margin-top: 33px;
+    margin-left: 95px;
+    text-align: left; 
+    font-size: medium;
+    
+    font-family:sans-serif;
+}
+.footer{
+    margin-top: 65px;
+    color: white;
+    margin-left: 95px;
+    font-size: small;
+    letter-spacing: 1px;
+}
+#manga{
+    font-size:medium;
+    transition: 0.5s;
+}
+#manga:hover{
+    cursor: pointer;
+    color: #CAE962;
+
+}
+
+
